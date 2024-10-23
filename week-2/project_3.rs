@@ -4,6 +4,10 @@ fn main() {
     let n : f64 = 3.0;
 
     //depreciation
+    
     let a= p*(1.0-(r/100.0)).powf(n);
-    println!("the depreciation is {}", a );
+    let de = p- a;
+    println!("the depreciation is {}", de );
+
+
 }
